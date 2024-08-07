@@ -1,0 +1,89 @@
+/* Oitavas.module.css */
+
+.container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.matches {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.match {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.match:hover {
+    transform: scale(1.02);
+}
+
+.matchHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.teamLogo {
+    width: 120px; /* Ajuste o tamanho conforme necessário */
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.teamName {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.vs {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 0 20px;
+}
+
+.score {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #555;
+}
